@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/setting"
+        android:title="@string/setting"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/archive"
+        android:title="@string/archive"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/ordered"
+        android:title="@string/ordered"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/likes"
+        android:title="@string/likes"
+        android:icon="@drawable/favorite"
+        android:iconTint="@android:color/white"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/messages"
+        android:title="@string/messages"
+        android:icon="@drawable/messages"
+        android:iconTint="@android:color/white"
+        app:showAsAction="ifRoom"/>
+
+</menu>
